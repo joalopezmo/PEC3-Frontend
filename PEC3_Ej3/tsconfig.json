@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "target": "es2015", 
-    "module": "commonjs", 
-    "outDir": "./dist",   
-    "rootDir": "./src", 
-    "strict": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./buildcache",
+    "target": "es2015",   // Especifica el tipo de codigo que se va a generar (es2015, es2016, es2017, es2018, esnext)
+    "module": "commonjs",  // Especifica el sistema de modulos que se va a usar (amd, commonjs, system, umd)
+    "outDir": "./dist",   // Especifica el directorio de salida
+    "rootDir": "./src", // Especifica el directorio raiz - origen de los archivos
+    "strict": true, // Especifica si se deben usar modulos estrictos
+    "incremental": true, // Especifica si quiere que se guarde informacion de los archivos compilados
+    "tsBuildInfoFile": "./buildcache", // Especifica el archivo donde se guarda la informacion de los archivos compilados
   }
 }

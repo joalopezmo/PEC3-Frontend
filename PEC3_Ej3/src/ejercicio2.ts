@@ -1,5 +1,5 @@
-Sustituye /***/ por las instrucciones adecuadas que cumplan las operaciones 
-y salidas indicadas en los comentarios.
+//Sustituye /***/ por las instrucciones adecuadas que cumplan las operaciones 
+//y salidas indicadas en los comentarios.
 
 
 interface Plane{
@@ -8,7 +8,9 @@ interface Plane{
 }
 /***/
 
-let myHangar:HangarHash = {}
+let myHangar:HangarHash = {
+
+}
 
 myHangar['123Z']={
     model:'airbus',
@@ -23,3 +25,7 @@ myHangar['H789']={
  * 123Z:airbus(200)
  * H789:boeing(151)
  */
+
+for(let key in myHangar){
+    console.log(key+':'+myHangar[key].model+'('+myHangar[key].npassengers+')');
+}
