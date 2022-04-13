@@ -17,3 +17,8 @@
 
 3. (0.5 puntos) ¿Cuál es la diferencia entre una clase y una interface en TypeScript?
     *** La diferencia fundamental entre una clase y una interface reside en un reusabilidad y su objetivo principal de implementacion. La clase se usa para la creacion de objetos y definicion de metodos, mientras que la interfaz se usa para crear una estructura para su aplicacion en entidades y clases. La clase puede ser instanciada mientras que la interfaz no. Durante la compilacion del codigo, el codigo de clase no desaparece mientras que el codigo de la interfaz si desaparece completamente.
+
+**** Modifica el código para conseguir que aparezca una línea roja de error en el IDE avisándote de que se está disparando un TypeError . Toma una captura de pantalla de tu resultado y haz que se muestre dentro del fichero PEC3_Ej2_respuestas_teoria.md (0.5 puntos). Dentro de este mismo documento explica por qué se ha producido esto y qué ventajas tiene ****    
+
+![Captura_de_pantalla](PEC3_Ej2\captura.png)
+
