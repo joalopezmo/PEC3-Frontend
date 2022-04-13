@@ -20,5 +20,7 @@
 
 **** Modifica el código para conseguir que aparezca una línea roja de error en el IDE avisándote de que se está disparando un TypeError . Toma una captura de pantalla de tu resultado y haz que se muestre dentro del fichero PEC3_Ej2_respuestas_teoria.md (0.5 puntos). Dentro de este mismo documento explica por qué se ha producido esto y qué ventajas tiene ****    
 
-![Captura_de_pantalla](PEC3_Ej2\captura.png)
+![Captura_de_pantalla](https://github.com/joalopezmo/PEC3-Frontend/blob/master/PEC3_Ej2/PEC3_Ej2%5Ccaptura.png)
+
+El type error se dispara por el hecho de que cuando se declaran variables bajo la palabra reservada 'const' se le asigna un tipo, este tipo se debe respetar cuando se inicializa la variable asignadose un valor. Es una de las principales caracteristicas de typescript, que impide que las variables muestren comportamientos extraños en uso dentro del codigo.
 
